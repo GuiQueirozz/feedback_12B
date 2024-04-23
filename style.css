@@ -61,6 +61,8 @@ body{
     display: flex;
     justify-content: space-between;
 
+    margin-bottom: 32px;
+
 }
 
 .botoes button {
@@ -74,4 +76,39 @@ body{
     color: var(--medium-gray);
     background-color: var(--dark-blue);
 
+    transition: all ease-in-out 0.3s;
+
+}
+
+.botoes button:hover{
+    color: var(--whiite);
+    background-color: var(--orange);
+    cursor: pointer;
+}
+
+.botoes button:focus{
+    color: var(--whiite);
+    background-color: var(--light-gray);
+}
+
+.card > button{
+    width: 100%;
+    padding: 13px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 22px;
+
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--whiite);
+
+    transition: all ease-in-out 0.3s;
+}
+
+.card > button:hover{
+    color: var(--orange);
+    background-color: var(--whiite);
+    cursor: pointer;
 }
